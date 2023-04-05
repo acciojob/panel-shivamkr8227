@@ -6,14 +6,18 @@
 .div-img{
 	box-sizing:border:box;
 	padding:20px;
+	
 }
 img{
 	height:350px;
 	width:30px;
-	object-fit:cover;
 	border-radius:30px;
+	object-fit:cover;
 }
 img:active{
 	width:300px;
 	transition:1s;
+}
+h3{
+	position:absolute;
 }
