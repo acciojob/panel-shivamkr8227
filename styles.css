@@ -13,7 +13,7 @@ img{
 	object-fit:cover;
 	border-radius:30px;
 }
-img:hover{
+img:active{
 	width:300px;
 	transition:1s;
 }
