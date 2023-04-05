@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.main{
+	display:flex;
+	height:400px;
+}
+.div-img{
+	box-sizing:border:box;
+	padding:20px;
+}
+img{
+	height:350px;
+	width:30px;
+	object-fit:cover;
+	border-radius:30px;
+}
+img:hover{
+	width:300px;
+	transition:1s;
+}
